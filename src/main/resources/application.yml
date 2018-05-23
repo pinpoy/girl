@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+#    active: prod
+  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://127.0.0.1:3306/dbgirl
+#    username: root
+#    password: 123456
+
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rds8q6sd63m3voxhtk09.mysql.rds.aliyuncs.com:3306/reporttest
+    username: reportadmin
+    password: Jesgoo@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
